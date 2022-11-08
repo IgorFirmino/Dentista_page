@@ -1,4 +1,13 @@
 @media screen and (max-width: 768px) {
+
+    nav.menu-desktop{
+        display: none;
+    }
+
+    header nav.menu-mobile{
+        display: block;
+    }
+
     section.servicos  .container{
         flex-direction: column;
     }
@@ -7,7 +16,7 @@
         width: 90%;
         max-width: 350px;
         padding: 30px 2%;
-        background-color: #576875;
+
     }
     
     section.servicos > .container .box-servico:nth-of-type(2){
@@ -15,7 +24,6 @@
         max-width: 380px;
         padding: 60px 2%;
         background-image: none;
-        background-color: #688293;
     }
     
     
@@ -23,6 +31,61 @@
         width: 90%;
         max-width: 350px;
         padding: 30px 2%;
-        background-color: #576875;
+    }
+
+    section.perfil-container .perfil-wraper2{
+        height: auto;
+        position: static;
+        text-align: center;
+        display: inline-block;
+    }
+
+    section.perfil-container .perfil-wraper{
+        padding: 0px;
+    }
+
+    section.perfil-container .img-perfil{
+        width: 50%;
+        padding-top: 70%;
+        display: inline-block;
+        height: 100%;
+        background-image: url(../imagens/img_perfil.png);
+        background-size: 100% 100%;
+    }
+
+  
+    
+    section.perfil-container .texto-perfil{
+        text-align: justify;
+        display: inline-block;
+        width: 100%;
+        padding: 5px 30px;
+    }
+    
+      section.videos .container{
+        text-align: center;
+    }
+    
+    section.videos .box-video{
+        float: none;
+        width: 70%;
+        display: inline-block;
+        padding-top: calc(70% * 0.6);
+        border:1px solid rgb(255, 255, 255);
+    }
+    
+}
+
+
+@media screen and (max-width: 580px) {
+    section.perfil-container .img-perfil{
+        width: 80%;
+        padding-top: 110%;
+        display: inline-block;
+        height: 100%;
+        background-image: url(../imagens/img_perfil.png);
+        background-size: 100% 100%;
     }
 }
+
+
