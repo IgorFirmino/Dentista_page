@@ -222,8 +222,19 @@ section.videos iframe{
 }
 /*----------------------------------------------*/
 
-.tratamento > h2{
+section.tratamento{
+	background-color: rgb(228, 228, 228);
+}
 
+section.tratamento > h2.titulo{
+	color: #698293;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.tratamento > .container{
+	padding: 60px 0;
 }
 
 section.tratamento .tratamento-container{
@@ -243,4 +254,131 @@ section.tratamento h2{
 section.tratamento p{
 	font-size: 13px;
 	color: #b4b4b4;
+}
+/*----------------------------------------------*/
+section.depoimento > h2{
+	color: #698293;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.depoimento .container{
+	padding: 40px 0px;
+	max-width: 400px;
+}
+
+section.depoimento .depoimento-single{
+	text-align: center;
+	margin: 0 2%;
+}
+
+.depoimento-single quote{
+	font-size: 15px;
+	color: #b4b4b4;
+}
+
+.depoimento-single .nome-depoimento{
+	padding: 15px 0;
+}
+
+.nome-depoimento img{
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+}
+
+.nome-depoimento span{
+	font-size: 13px;
+	color: #b4b4b4;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 7px;
+}
+
+/*----------------------------------------------*/
+
+.instagram-chamada{
+	width: 100%;
+	text-align: center;
+	padding: 40px 0;
+	background-color: #98a5ae;
+	color: white;
+}
+
+.instagram-chamada{
+	line-height: 1.6;
+	font-size: 13px;
+}
+
+.mosaico-single-social{
+	float: left;
+	width: calc( 100% / 9);
+	padding-top: calc( 100% / 9);
+	border: 6px solid white;
+	background-color: rgb(111, 111, 111);
+
+}
+
+.facebook-chamada{
+	width: 100%;
+	text-align: center;
+	padding: 40px 0;
+	background-color: #576975;
+	color: white;
+}
+
+.facebook-chamada p{
+	line-height: 1.6;
+	font-size: 13px;
+}
+
+.facebook-chamada a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+
+section.contato{
+	padding: 60px 2%;
+}
+
+section.contato h2{
+	color: #698293;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.contato form{
+	width: 100%;
+	max-width: 500px;
+	margin: 30px auto;
+}
+
+.form-wraper{
+	float: left;
+	padding: 0 10px;
+	margin-top: 10px;
+}
+
+.w100{
+	width: 100%;
+}
+
+.w50{
+	width: 50%;
+}
+
+.form-wraper span{
+	font-size: 15px;
+	color: #4b4b4b;
+}
+
+.form-wraper input[type=text]{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 9px;
+	border: 1px solid #dadada;
+	margin-top: 8px;
 }

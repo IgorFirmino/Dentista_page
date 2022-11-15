@@ -1,3 +1,19 @@
+
+@media screen and (max-width: 1024px){
+    .mosaico-single-social{
+        float: left;
+        width: calc( 100% / 6);
+        padding-top: calc( 100% / 6);
+        border: 6px solid white;
+        background-color: rgb(111, 111, 111);
+    
+    }
+
+    .mosaico-social > div:nth-of-type(1n + 7){
+        display: none;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     nav.menu-desktop{
@@ -73,9 +89,21 @@
         padding-top: calc(70% * 0.6);
         border:1px solid rgb(255, 255, 255);
     }
+
+    .mosaico-single-social{
+        float: left;
+        width: calc( 100% / 3);
+        padding-top: calc( 100% / 3);
+        border: 6px solid white;
+        background-color: rgb(111, 111, 111);
+    
+    }
+
+    .mosaico-social > div:nth-of-type(1n + 4){
+        display: none;
+    }
     
 }
-
 
 @media screen and (max-width: 580px) {
     section.perfil-container .img-perfil{
