@@ -114,6 +114,10 @@
         background-image: url(../imagens/img_perfil.png);
         background-size: 100% 100%;
     }
+
+    .w50{
+        width: 100%;
+    }
 }
 
 
